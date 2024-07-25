@@ -1,0 +1,218 @@
+@media all and (max-width: 1200px){
+    .container{
+        width: 95%;
+    }
+}
+/* reset tới 1200px thì xuống 95% */
+
+@media all and (max-width: 1100px){
+    header .khung-layout-header nav{
+        display: none;
+    }
+    header .khung-layout-header .khung-gio-dang{
+        display: none;
+    }
+    header .khung-layout-header .khung-bars button{
+        display: block;
+    }
+    .page_home .san_pham-hot .khung-layout-hot a .thong_tin .ten-san_pham {
+        font-weight: 700;
+        font-size: 18px; 
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100px; 
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham .khung-o-san_pham .thong_tin .ten{
+        width: 100px;
+    }
+    .product_detail .san_pham-loai .khung-layout-loai a .thong_tin .ten-san_pham{
+        width: 100px;
+    }
+    .page_cart .khung-gio_hang .khung-thong_tin{
+        width: 60%;
+    }
+    .page_cart .khung-gio_hang .khung-thanh_toan{
+        width: 40%;
+    }
+    .page_cart .san_pham-loai .khung-layout-loai a .thong_tin .ten-san_pham{
+        width: 100px;
+    }
+    .khung-o-tien_ich{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media all and (max-width: 980px){
+    .footer-web .khung-layout-footer-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .product_detail .khung-layout-danh_gia .khung-danh_gia{
+        width: 100%;
+    }
+    .product_detail .khung-layout-danh_gia .khung-anh-quang_cao{
+        display: none;
+    }
+    .product_detail .thong_tin-san_pham .anh-san_pham{
+        flex-direction: column-reverse;
+    }
+    .product_detail .thong_tin-san_pham .anh-san_pham .anh-phu{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .product_detail .thong_tin-san_pham .anh-san_pham .anh-phu img{
+        width: 20%;
+        border-radius: 5px;
+    }
+}
+@media all and (max-width: 900px){
+    .page_home .san_pham-hot .khung-layout-hot a .thong_tin{
+        flex-direction: column;
+        text-align: left;
+    }
+    .khung-layout-product_list{
+        flex-direction: column;
+    }
+    .product_list .khung-layout-product_list .khung-filter{
+        width: 100%;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung{
+        width: 100%;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham .khung-o-san_pham .thong_tin .ten{
+        width: 70px;
+    }
+    .page_cart .khung-gio_hang .khung-thong_tin{
+        width: 100%;
+    }
+    .page_cart .khung-gio_hang .khung-thanh_toan{
+        width: 100%;
+    }
+    .page_cart .khung-gio_hang{
+        flex-direction: column;
+    }
+    .page_cart .san_pham-loai .khung-layout-loai a .thong_tin{
+        flex-direction: column;
+    }
+    .product_detail .san_pham-loai .khung-layout-loai a .thong_tin{
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 850px){
+    .tien_ich .khung-layout-tien_ich{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        color: white;
+    }
+    .khung-o-tien_ich{
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham .khung-o-san_pham .thong_tin .ten{
+        width: 90px;
+    }
+}
+@media all and (max-width: 800px){
+    .product_detail .thong_tin-san_pham{
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (max-width: 750px){
+    .page_home .layout-deal{
+        display: flex;
+        flex-direction: column;
+    }
+    .page_home .layout-deal .khung-o-deal{
+        width: 100%;
+    }
+    .page_home .tot_hon {
+        grid-template-columns: 1fr;
+    }
+    .page_home .tot_hon .anh-tot_hon{
+        display: none;
+    }
+    .page_home .danh_muc .khung-layout-danh_muc{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .product_detail .san_pham-loai .khung-layout-loai{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tien_ich .khung-layout-tien_ich{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        color: white;
+    }
+    .page_cart .san_pham-loai .khung-layout-loai{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .khung-o-tien_ich{
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 700px){
+    .page_home .san_pham-hot .khung-layout-hot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .page_home .san_pham-hot .khung-layout-hot a .thong_tin .ten-san_pham{
+        width: 200px;
+    }
+    .page_home .san_pham-hot .khung-layout-hot a .thong_tin{
+        flex-direction: row;
+    }
+    .footer-web .khung-layout-footer-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham .khung-o-san_pham .thong_tin .ten{
+        width: 70px;
+    }
+    .product_list .khung-layout-product_list .khung-noi_dung .khung-layout-san_pham .khung-o-san_pham .thong_tin{
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 600px){
+    .page_home .danh_muc .khung-layout-danh_muc{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .product_detail .san_pham-loai .khung-layout-loai{
+        grid-template-columns: 1fr 1fr;
+    }
+    .page_cart .khung-gio_hang .khung-thong_tin .khung-layout_don_hang .khung-o-don_hang .khung-noi_dung-don_hang .thong_tin .thong_tin-don_hang .ve-don_hang .ten-san_pham{
+        
+        width: 200px;
+    }
+    .page_cart .san_pham-loai .khung-layout-loai{
+        grid-template-columns: 1fr 1fr;
+    }
+    .khung-o-tien_ich{
+        flex-direction: column;
+    }
+    .page_home .san_pham-hot .khung-layout-hot a .thong_tin .ten-san_pham{
+        width: 100px;
+    }
+}
+@media all and (max-width: 500px){
+    body{
+        min-width: 500px;
+    }
+}
